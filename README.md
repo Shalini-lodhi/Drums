@@ -30,7 +30,7 @@ function playSound(url) {
 ```xml
 <button onclick="playSound('https://your-file.mp3');">Play</button> 
 ```
- - **JavaScript Object** 
+ 4. **JavaScript Object** 
 	
  - Object
  ```javascript
@@ -88,7 +88,7 @@ switch (key) {
     default: console.log(key);
   }
  ```
- 4. **Methods (dot notation)**
+ 5. **Methods (dot notation)**
  ```javascript
  var bellBoy1={
   name:"Timmy",
@@ -134,13 +134,13 @@ switch (key) {
 var tom1=new Audio("sounds/tom-1.mp3");
 tom1.play();
 ```
- 5. **Using Keyboard Event Listeners to Check for Key Presses**
+ 6. **Using Keyboard Event Listeners to Check for Key Presses**
  ```javascript
  document.addEventListener("keypress",function(event){
     makeSound(event.key);
 });
  ```
- 6. **Callbacks and How to Respond to Events**
+ 7. **Callbacks and How to Respond to Events**
  ```javascript
 document.addEventListener("keypress", function(event) {
 	  makeSound(event.key);

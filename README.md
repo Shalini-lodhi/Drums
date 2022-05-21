@@ -1,4 +1,8 @@
-# JavaScript Code
+# Play Online through: [🥁](https://shalini-lodhi.github.io/Drums/)
+
+Link: https://shalini-lodhi.github.io/Drums/
+
+## JavaScript Code
 
  1. **Adding Event Listeners to a Button**
 ```javascript
